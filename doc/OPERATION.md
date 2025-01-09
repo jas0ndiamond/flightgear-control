@@ -1,6 +1,6 @@
 # flightgear-control Operation
 
-Ensure the simulator environment setup is completed. Process documented [here](SETUP.md).
+Ensure the simulator environment setup is completed. Process documented [here](SETUP_LINUX.md).
 
 ----
 ### Run a test flight ###
