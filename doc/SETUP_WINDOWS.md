@@ -23,10 +23,11 @@ This guide covers usage of a standard installation of flightgear on Windows 10.
     * `FlightGear-2020.3.17-update-data.txz`
 1. Run the FlightGear installer `FlightGear-2020.3.17.exe` and install to the default directory.
 1. Extract the data archives to the current directory in the following order. Both archives should extract to an `fgdata` directory. Ensure that an `fgdata` directory does not exist inside another `fgdata` directory.
+    1. path to fgdata is hardcoded in Windows under user profile [Example >C:\Users\user1\fgdata]. Make sure the fgdata is stored here. If it is not stored under %USERPROFILE% directory , You may not able to launch the fg_launcher .
     1. Extract archive `FlightGear-2020.3.17-data.txz`
     1. Extract archive `FlightGear-2020.3.17-update-data.txz`
-1. Add the directory containing the FlightGear executable to the Windows Path Environment Variable.
-    The simulator scripts used by the `flightgear-control` establish and depend on a consistent FG_HOME and FG_ROOT, otherwise simulator assets like aircraft will have to be redownloaded each time the simulator is launched.
+1. Add the directory containing the FlightGear executable to the Windows Path Environment Variable.[Example :C:\Program Files\FlightGear 2020.3.17\bin]
+1. The simulator scripts used by the `flightgear-control` establish and depend on a consistent FG_HOME and FG_ROOT, otherwise simulator assets like aircraft will have to be redownloaded each time the simulator is launched.
 1. Clone the `flightgear-control` project, and check out the latest tagged release.
 1. Enable powershell script execution if necessary with `Set-ExecutionPolicy RemoteSigned`
 1. Run the simulator setup powershell script with:
