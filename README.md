@@ -26,8 +26,9 @@ Generically fly aircraft by executing the plane's engine startup script and dili
 ----
 #### Setup ####
 
-* [Linux](doc/SETUP.md)
+* [Linux](doc/SETUP_LINUX.md)
 * [Windows](doc/SETUP_WINDOWS.md)
+* [MacOS](doc/SETUP_MAC.md)
 
 ----
 #### Building ####
